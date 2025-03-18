@@ -1,0 +1,27 @@
+/* projects.component.css */
+.projects-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
