@@ -1,15 +1,41 @@
-/* skills.component.css */
-.skills-container {
-    text-align: center;
-    margin-top: 20px;
-}
-
-ul {
-    list-style-type: none;
+.skillset {
+    list-style: none;
     padding: 0;
+    text-align: center;
+    width: 100%;
+    max-width: 300px; /* Adjust width as needed */
+    margin: 0 auto;
+    padding-bottom: 50px; /* Adds space below the last list item */
 }
 
-li {
-    font-size: 18px;
-    margin-bottom: 10px;
+.skillset li {
+    display: block; /* Keeps items stacked vertically */
+    padding: 10px 20px;
+    margin: 10px auto; /* Centers items and adds spacing */
+    font-size: 20px;
+    border-radius: 50px; /* Creates an oval shape */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    width: fit-content; /* Keeps width adaptive */
+}
+
+.skillset li:hover {
+    background-color: #df6e22; /* Hover effect */
+    color: white;
+}
+
+/* Ensure Footer Doesn't Overlap */
+footer {
+    position: relative; /* Ensures normal document flow */
+    margin-top: 50px; /* Creates space between the list and the footer */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .skillset li {
+        font-size: 18px;
+        padding: 8px 15px;
+    }
+    .skillset {
+        padding-bottom: 80px; /* More space for smaller screens */
+    }
 }

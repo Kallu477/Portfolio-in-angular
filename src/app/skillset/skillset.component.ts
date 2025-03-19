@@ -10,5 +10,7 @@ import { RouterModule } from '@angular/router';
   standalone: true
 })
 export class SkillsetComponent {
-  skills = ['Angular', 'C#', 'JavaScript', 'TypeScript', 'HTML', 'CSS', 'Node.js', 'Express', 'Git'];
+  skills = ['HTML5', 'CSS', 'JavaScript', 'TypeScript', 'Node.js', 'Express.js', 'Git',
+     'gitHub', 'Jira', 'MongoDB', 'Mongoose', 'Angular', 'React', 'Redux', 'RESTful APIs'
+  ];
 }
