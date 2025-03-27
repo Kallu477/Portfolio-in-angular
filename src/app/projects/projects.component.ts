@@ -14,12 +14,10 @@ export class ProjectsComponent {
     {
       name: 'Restaurant Menu App',
       description: 'A full-featured restaurant menu app with review and rating functionality.',
-      link: 'https://github.com/yourrepo'
     },
     {
       name: 'Portfolio Website',
       description: 'A personal portfolio to showcase my projects and skills.',
-      link: 'https://github.com/yourrepo'
     }
   ];
 }
